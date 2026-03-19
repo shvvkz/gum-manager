@@ -164,7 +164,7 @@
     {
       "activation": "Activates immediately; lasts 2 Hits",
       "function": "The next time the player takes damage, nearby zombies burst into fire.",
-      "id": "Burned Out",
+      "id": "Burned_Out",
       "name": "Burned Out",
       "rarity": "Mega",
       "url": "https://static.wikia.nocookie.net/callofduty/images/8/80/Burned_Out_GobbleGum_BO3.png"
@@ -172,7 +172,7 @@
     {
       "activation": "2x Activations",
       "function": "Spawns a Nuke Power-Up.",
-      "id": "Dead of Nuclear Winter",
+      "id": "Dead_of_Nuclear_Winter",
       "name": "Dead of Nuclear Winter",
       "rarity": "Mega",
       "url": "https://static.wikia.nocookie.net/callofduty/images/b/b3/Dead_of_Nuclear_Winter_GobbleGum_BO3.png"
@@ -180,7 +180,7 @@
     {
       "activation": "2x Activations; 60 seconds each",
       "function": "Turns the weapon in the player's hands into the Pack-A-Punched version.",
-      "id": "Ephemeral Enhancement",
+      "id": "Ephemeral_Enhancement",
       "name": "Ephemeral Enhancement",
       "rarity": "Mega",
       "url": "https://static.wikia.nocookie.net/callofduty/images/7/7d/Ephemeral_Enhancement_GobbleGum_BO3.png"
@@ -188,7 +188,7 @@
     {
       "activation": "2x Activations",
       "function": "Spawns a random Power-Up in the map.",
-      "id": "I'm Feeling Lucky",
+      "id": "I_m_Feeling_Lucky",
       "name": "I'm Feeling Lucky",
       "rarity": "Mega",
       "url": "https://static.wikia.nocookie.net/callofduty/images/8/8d/I%27m_Feeling_Lucky_GobbleGum_BO3.png"
@@ -196,7 +196,7 @@
     {
       "activation": "3x Activations",
       "function": "Spawns a Fire Sale Power-Up.",
-      "id": "Immolation Liquidation",
+      "id": "Immolation_Liquidation",
       "name": "Immolation Liquidation",
       "rarity": "Mega",
       "url": "https://static.wikia.nocookie.net/callofduty/images/9/96/Immolation_Liquidation_GobbleGum_BO3.png"
@@ -204,7 +204,7 @@
     {
       "activation": "3x Activations",
       "function": "Spawns a Carpenter Power-Up.",
-      "id": "Licensed Contractor",
+      "id": "Licensed_Contractor",
       "name": "Licensed Contractor",
       "rarity": "Mega",
       "url": "https://static.wikia.nocookie.net/callofduty/images/5/5c/Licensed_Contractor_GobbleGum_BO3.png"
@@ -212,7 +212,7 @@
     {
       "activation": "1x Activation",
       "function": "Revives all teammates. Teammates keep all of their Perks.",
-      "id": "Phoenix Up",
+      "id": "Phoenix_Up",
       "name": "Phoenix Up",
       "rarity": "Mega",
       "url": "https://static.wikia.nocookie.net/callofduty/images/a/ac/Phoenix_Up_GobbleGum_BO3.png"
@@ -220,7 +220,7 @@
     {
       "activation": "Auto-Activates when attacking Zombies; 5x Activations",
       "function": "Melee attacks trigger an electrostatic discharge.",
-      "id": "Pop Shocks",
+      "id": "Pop_Shocks",
       "name": "Pop Shocks",
       "rarity": "Mega",
       "url": "https://static.wikia.nocookie.net/callofduty/images/c/ca/Pop_Shocks_GobbleGum_BO3.png"
@@ -228,7 +228,7 @@
     {
       "activation": "2x Activations",
       "function": "Re-spins the weapons in the Mystery Box.",
-      "id": "Respin Cycle",
+      "id": "Respin_Cycle",
       "name": "Respin Cycle",
       "rarity": "Mega",
       "url": "https://static.wikia.nocookie.net/callofduty/images/2/26/Respin_Cycle_GobbleGum_BO3.png"
@@ -244,7 +244,7 @@
     {
       "activation": "2x Activations",
       "function": "Spawns a Double Points Power-Up.",
-      "id": "Who's Keeping Score?",
+      "id": "Who_s_Keeping_Score?",
       "name": "Who's Keeping Score?",
       "rarity": "Mega",
       "url": "https://static.wikia.nocookie.net/callofduty/images/c/c5/Who%27s_Keeping_Score%3F_GobbleGum_BO3.png"
@@ -252,7 +252,7 @@
     {
       "activation": "5x Activations",
       "function": "All nearby zombies become crawlers.",
-      "id": "Crawl Space",
+      "id": "Crawl_Space",
       "name": "Crawl Space",
       "rarity": "Mega",
       "url": "https://static.wikia.nocookie.net/callofduty/images/b/b0/Crawl_Space_GobbleGum_BO3.png"
@@ -260,7 +260,7 @@
     {
       "activation": "2x Activations",
       "function": "Spawns a Death Machine Power-Up.",
-      "id": "Fatal Contraption",
+      "id": "Fatal_Contraption",
       "name": "Fatal Contraption",
       "rarity": "Mega",
       "url": "https://static.wikia.nocookie.net/callofduty/images/4/4b/Fatal_Contraption_GobbleGum_BO3.png"
@@ -276,7 +276,7 @@
     {
       "activation": "Activates immediately; lasts for 5 minutes",
       "function": "Gives a random gun every 10 seconds.",
-      "id": "Disorderly Combat",
+      "id": "Disorderly_Combat",
       "name": "Disorderly Combat",
       "rarity": "Mega",
       "url": "https://static.wikia.nocookie.net/callofduty/images/a/ad/Disorderly_Combat_GobbleGum_BO3.png"
@@ -284,7 +284,7 @@
     {
       "activation": "Auto-activates when sliding; 6x Activations",
       "function": "Create 2 lethal explosions by sliding.",
-      "id": "Slaughter Slide",
+      "id": "Slaughter_Slide",
       "name": "Slaughter Slide",
       "rarity": "Mega",
       "url": "https://static.wikia.nocookie.net/callofduty/images/2/2c/Slaughter_Slide_GobbleGum_BO3.png"
@@ -292,7 +292,7 @@
     {
       "activation": "3x Activations",
       "function": "Gib the heads of all the zombies you can see.",
-      "id": "Mind Blown",
+      "id": "Mind_Blown",
       "name": "Mind Blown",
       "rarity": "Mega",
       "url": "https://static.wikia.nocookie.net/callofduty/images/a/a9/Mind_Blown_GobbleGum_BO3.png"
@@ -300,7 +300,7 @@
     {
       "activation": "Activates immediately; lasts 5 rounds",
       "function": "Fixing one board fixes all boards at that barrier.",
-      "id": "Board Games",
+      "id": "Board_Games",
       "name": "Board Games",
       "rarity": "Mega",
       "url": "https://static.wikia.nocookie.net/callofduty/images/3/31/Board_Games_GobbleGum_BO3.png"
@@ -308,7 +308,7 @@
     {
       "activation": "Activates immediately; lasts 5 minutes",
       "function": "Zombies near repaired boards are killed.",
-      "id": "Board To Death",
+      "id": "Board_To_Death",
       "name": "Board To Death",
       "rarity": "Mega",
       "url": "https://static.wikia.nocookie.net/callofduty/images/9/91/Board_To_Death.png"
@@ -316,7 +316,7 @@
     {
       "activation": "Activates immediately",
       "function": "Selects a random Mega GobbleGum not in loadout.",
-      "id": "Flavor Hexed",
+      "id": "Flavor_Hexed",
       "name": "Flavor Hexed",
       "rarity": "Mega",
       "url": "https://static.wikia.nocookie.net/callofduty/images/3/3f/Flavor_Hexed_GobbleGum_BO3.png"
@@ -324,7 +324,7 @@
     {
       "activation": "Activated; 3x Activations, 30 seconds each",
       "function": "All zombies ignore players and stand idle.",
-      "id": "Idle Eyes",
+      "id": "Idle_Eyes",
       "name": "Idle Eyes",
       "rarity": "Mega",
       "url": "https://static.wikia.nocookie.net/callofduty/images/b/b5/Idle_Eyes_GobbleGum_BO3.png"
@@ -332,7 +332,7 @@
     {
       "activation": "1x Activation",
       "function": "Spawns a Max Ammo Power-Up.",
-      "id": "Cache Back",
+      "id": "Cache_Back",
       "name": "Cache Back",
       "rarity": "Rare Mega",
       "url": "https://static.wikia.nocookie.net/callofduty/images/9/90/Cache_Back_GobbleGum_BO3.png"
@@ -340,7 +340,7 @@
     {
       "activation": "2x Activations",
       "function": "Spawns an Insta-Kill Power-Up.",
-      "id": "Kill Joy",
+      "id": "Kill_Joy",
       "name": "Kill Joy",
       "rarity": "Mega Rare Mega",
       "url": "https://static.wikia.nocookie.net/callofduty/images/7/73/Kill_Joy_GobbleGum_BO3.png"
@@ -348,7 +348,7 @@
     {
       "activation": "1x Activation",
       "function": "Spawns a random Perk Bottle.",
-      "id": "On the House",
+      "id": "On_the_House",
       "name": "On the House",
       "rarity": "Rare Mega",
       "url": "https://static.wikia.nocookie.net/callofduty/images/b/b8/On_the_House_GobbleGum_BO3.png"
@@ -356,7 +356,7 @@
     {
       "activation": "Activates immediately",
       "function": "Next wall weapon becomes Pack-a-Punched.",
-      "id": "Wall Power",
+      "id": "Wall_Power",
       "name": "Wall Power",
       "rarity": "Rare Mega",
       "url": "https://static.wikia.nocookie.net/callofduty/images/2/2d/Wall_Power_GobbleGum_BO3.png"
@@ -364,7 +364,7 @@
     {
       "activation": "Activates immediately; lasts 4 minutes",
       "function": "Slow down all zombies.",
-      "id": "Undead Man Walking",
+      "id": "Undead_Man_Walking",
       "name": "Undead Man Walking",
       "rarity": "Rare Mega",
       "url": "https://static.wikia.nocookie.net/callofduty/images/a/a0/Undead_Man_Walking_GobbleGum_BO3.png"
@@ -372,7 +372,7 @@
     {
       "activation": "1x Activation; lasts 2 minutes",
       "function": "Zombies seen by the player do not move.",
-      "id": "Fear in Headlights",
+      "id": "Fear_in_Headlights",
       "name": "Fear in Headlights",
       "rarity": "Rare Mega",
       "url": "https://static.wikia.nocookie.net/callofduty/images/5/58/Fear_in_Headlights_GobbleGum_BO3.png"
@@ -380,7 +380,7 @@
     {
       "activation": "Activates immediately; lasts 1 round",
       "function": "Power-ups last longer.",
-      "id": "Temporal Gift",
+      "id": "Temporal_Gift",
       "name": "Temporal Gift",
       "rarity": "Rare Mega",
       "url": "https://static.wikia.nocookie.net/callofduty/images/7/7d/Temporal_Gift_GobbleGum_BO3.png"
@@ -388,7 +388,7 @@
     {
       "activation": "Auto-activates when taking a gun from Mystery Box",
       "function": "Next box weapon comes Pack-a-Punched.",
-      "id": "Crate Power",
+      "id": "Crate_Power",
       "name": "Crate Power",
       "rarity": "Rare Mega",
       "url": "https://static.wikia.nocookie.net/callofduty/images/3/3b/Crate_Power_GobbleGum_BO3.png"
@@ -396,7 +396,7 @@
     {
       "activation": "2x Activations",
       "function": "Re-Pack current weapon.",
-      "id": "Bullet Boost",
+      "id": "Bullet_Boost",
       "name": "Bullet Boost",
       "rarity": "Rare Mega",
       "url": "https://static.wikia.nocookie.net/callofduty/images/2/2a/Bullet_Boost_GobbleGum_BO3.png"
@@ -404,7 +404,7 @@
     {
       "activation": "4x Activations",
       "function": "Spawns Bonus Points.",
-      "id": "Extra Credit",
+      "id": "Extra_Credit",
       "name": "Extra Credit",
       "rarity": "Rare Mega",
       "url": "https://static.wikia.nocookie.net/callofduty/images/6/6a/Extra_Credit.png"
@@ -412,7 +412,7 @@
     {
       "activation": "Auto-activates when buying a perk",
       "function": "Gain extra random perk.",
-      "id": "Soda Fountain",
+      "id": "Soda_Fountain",
       "name": "Soda Fountain",
       "rarity": "Rare Mega",
       "url": "https://static.wikia.nocookie.net/callofduty/images/5/5e/Soda_Fountain.png"
@@ -420,7 +420,7 @@
     {
       "activation": "1x Activation",
       "function": "All zombies freeze for 20 seconds.",
-      "id": "Killing Time",
+      "id": "Killing_Time",
       "name": "Killing Time",
       "rarity": "Ultra-Rare Mega",
       "url": "https://static.wikia.nocookie.net/callofduty/images/8/8a/Killing_Time_GobbleGum_BO3.png"
@@ -436,7 +436,7 @@
     {
       "activation": "Activates immediately; lasts 1 round",
       "function": "All shots hit head.",
-      "id": "Head Drama",
+      "id": "Head_Drama",
       "name": "Head Drama",
       "rarity": "Ultra-Rare Mega",
       "url": "https://static.wikia.nocookie.net/callofduty/images/6/68/Head_Drama_GobbleGum_BO3.png"
@@ -444,7 +444,7 @@
     {
       "activation": "Activates immediately; lasts 10 minutes",
       "function": "Any wall-buy can be used to buy ammo for any gun.",
-      "id": "Secret Shopper",
+      "id": "Secret_Shopper",
       "name": "Secret Shopper",
       "rarity": "Ultra-Rare Mega",
       "url": "https://static.wikia.nocookie.net/callofduty/images/8/84/Secret_Shopper_GobbleGum_BO3.png"
@@ -452,7 +452,7 @@
     {
       "activation": "Activates immediately; lasts 1 minute",
       "function": "All purchases are free.",
-      "id": "Shopping Free",
+      "id": "Shopping_Free",
       "name": "Shopping Free",
       "rarity": "Ultra-Rare Mega",
       "url": "https://static.wikia.nocookie.net/callofduty/images/d/d2/Shopping_Free_GobbleGum_BO3.png"
@@ -460,7 +460,7 @@
     {
       "activation": "Activates immediately; lasts 3 rounds",
       "function": "Players revive each other automatically and keep perks.",
-      "id": "Near Death Experience",
+      "id": "Near_Death_Experience",
       "name": "Near Death Experience",
       "rarity": "Ultra-Rare Mega",
       "url": "https://static.wikia.nocookie.net/callofduty/images/4/48/Near_Death_Experience_GobbleGum_BO3.png"
@@ -468,7 +468,7 @@
     {
       "activation": "Activates immediately; lasts 10 minutes",
       "function": "Points earned are shared with nearby players.",
-      "id": "Profit Sharing",
+      "id": "Profit_Sharing",
       "name": "Profit Sharing",
       "rarity": "Ultra-Rare Mega",
       "url": "https://static.wikia.nocookie.net/callofduty/images/0/0f/Profit_Sharing_GobbleGum_BO3.png"
@@ -476,7 +476,7 @@
     {
       "activation": "1x Activation",
       "function": "Ends the current round and grants points.",
-      "id": "Round Robbin'",
+      "id": "Round_Robbin'",
       "name": "Round Robbin'",
       "rarity": "Ultra-Rare Mega",
       "url": "https://static.wikia.nocookie.net/callofduty/images/7/78/Round_Robbin%27_GobbleGum_BO3.png"
@@ -484,7 +484,7 @@
     {
       "activation": "Auto-activates when downed; 3x Activations",
       "function": "Self revive and keep all perks.",
-      "id": "Self Medication",
+      "id": "Self_Medication",
       "name": "Self Medication",
       "rarity": "Ultra-Rare Mega",
       "url": "https://static.wikia.nocookie.net/callofduty/images/f/f6/Self_Medication_GobbleGum_BO3.png"
@@ -492,7 +492,7 @@
     {
       "activation": "Activates immediately; lasts 4 rounds",
       "function": "Power-ups spawn more frequently.",
-      "id": "Power Vacuum",
+      "id": "Power_Vacuum",
       "name": "Power Vacuum",
       "rarity": "Ultra-Rare Mega",
       "url": "https://static.wikia.nocookie.net/callofduty/images/e/e5/Power_Vacuum_GobbleGum_BO3.png"
@@ -500,7 +500,7 @@
     {
       "activation": "2x Activations",
       "function": "Spawns all core power-ups at once.",
-      "id": "Reign Drops",
+      "id": "Reign_Drops",
       "name": "Reign Drops",
       "rarity": "Ultra-Rare Mega",
       "url": "https://static.wikia.nocookie.net/callofduty/images/6/6a/Reign_Drops_GobbleGum_BO3.png"
