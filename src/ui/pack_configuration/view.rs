@@ -32,7 +32,7 @@ pub fn PackConfigurationView(gums: ReadSignal<Vec<Gum>>, on_run: Callback<()>) -
                 padding:30px;
                 display:flex;
                 flex-direction:column;
-                gap:25px;
+                gap:20px;
             ">
 
                 {header(state.editing_slot.read_only())}

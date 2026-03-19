@@ -14,7 +14,7 @@
     "windows": [
       {
         "title": "gum-manager",
-        "width": 900,
+        "width": 950,
         "height": 650,
         "transparent": true,
         "decorations": true,
