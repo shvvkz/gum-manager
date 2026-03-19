@@ -5,6 +5,8 @@ mod models;
 mod services;
 mod shortcuts;
 mod window;
+mod init;
+mod update;
 
 use shortcuts::handler::handle_shortcut;
 
@@ -21,6 +23,23 @@ pub fn run() {
                 })
                 .build(),
         )
+        .setup(|app| {
+            let app_handle = app.handle().clone();
+            tauri::async_runtime::spawn(async move {
+                let remote_version = init::get_remote_gum_version().await;
+                let local_version = init::get_local_gum_version(&app_handle);
+                if local_version == "unknown" {
+                    // update::update_gums(&app_handle, &remote_version).await;
+                }
+                println!("Remote version: {}, Local version: {}", remote_version, local_version);
+                let local_version_split: Vec<&str> = local_version.split('.').collect();
+                let remote_version_split: Vec<&str> = remote_version.split('.').collect();
+                // if remote_version != local_version {
+                //     update::update_gums(&app_handle, &remote_version).await;
+                // }
+            });
+            Ok(())
+        })
         .invoke_handler(tauri::generate_handler![
             commands::gum_commands::get_gums,
             commands::pack_commands::get_pack,

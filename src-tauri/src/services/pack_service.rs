@@ -2,10 +2,10 @@ use serde_json::Value;
 use tauri::AppHandle;
 
 use crate::models::gum::GumList;
-use crate::services::db::get_db_path;
+use crate::services::file::get_app_file_path;
 
 pub fn get_gums(app: &AppHandle) -> Result<Vec<crate::models::gum::Gum>, String> {
-    let path = get_db_path(app);
+    let path = get_app_file_path(app, "gums.json");
 
     let content =
         std::fs::read_to_string(path).map_err(|e| format!("Erreur lecture fichier: {}", e))?;
@@ -17,7 +17,7 @@ pub fn get_gums(app: &AppHandle) -> Result<Vec<crate::models::gum::Gum>, String>
 }
 
 pub fn get_pack(app: &AppHandle) -> Result<Vec<String>, String> {
-    let path = get_db_path(app);
+    let path = get_app_file_path(app, "pack.json");
 
     let content =
         std::fs::read_to_string(path).map_err(|e| format!("Erreur lecture fichier: {}", e))?;
@@ -37,7 +37,7 @@ pub fn get_pack(app: &AppHandle) -> Result<Vec<String>, String> {
 }
 
 pub fn set_gum_in_pack(app: &AppHandle, index: usize, gum_id: String) -> Result<(), String> {
-    let path = get_db_path(app);
+    let path = get_app_file_path(app, "pack.json");
 
     let content =
         std::fs::read_to_string(&path).map_err(|e| format!("Erreur lecture fichier: {}", e))?;

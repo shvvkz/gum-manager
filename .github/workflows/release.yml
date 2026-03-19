@@ -1,0 +1,68 @@
+name: Windows Release
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  build-windows:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Rust
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Add wasm target
+        run: rustup target add wasm32-unknown-unknown
+
+      - name: Install trunk
+        run: cargo install trunk
+
+      - name: Install Tauri CLI
+        run: cargo install tauri-cli
+
+      - name: Build frontend
+        run: trunk build --release
+
+      - name: Build Tauri
+        run: cargo tauri build
+
+      - name: Prepare artifacts
+        shell: pwsh
+        run: |
+          mkdir output
+          Copy-Item target/release/bundle/msi/*.msi output/
+          Copy-Item target/release/bundle/nsis/*.exe output/
+
+      - name: Generate release info
+        id: vars
+        shell: pwsh
+        run: |
+          $date = Get-Date -Format "yyyy-MM-dd"
+          $commit = "${{ github.sha }}".Substring(0,7)
+          $name = "$date`_$commit"
+          echo "name=$name" >> $env:GITHUB_OUTPUT
+          echo "tag=$name" >> $env:GITHUB_OUTPUT
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ steps.vars.outputs.name }}
+          path: output/*
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.vars.outputs.tag }}
+          name: Release ${{ steps.vars.outputs.name }}
+          files: |
+            output/*.msi
+            output/*.exe
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
