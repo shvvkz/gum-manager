@@ -3,10 +3,7 @@ use crate::Gum;
 use leptos::prelude::*;
 
 #[component]
-pub fn PreviewPanel(
-    preview: ReadSignal<Option<Gum>>,
-) -> impl IntoView {
-
+pub fn PreviewPanel(preview: ReadSignal<Option<Gum>>) -> impl IntoView {
     view! {
         <div style="
             flex:1;

@@ -10,10 +10,7 @@ pub fn PackBar(
     set_editing_slot: WriteSignal<Option<usize>>,
     set_preview: WriteSignal<Option<Gum>>,
 ) -> impl IntoView {
-
-    let get_gum = move |id: &String| {
-        gums.get().into_iter().find(|g| &g.id == id)
-    };
+    let get_gum = move |id: &String| gums.get().into_iter().find(|g| &g.id == id);
 
     view! {
         <div style="display:flex; gap:20px; justify-content:center;">

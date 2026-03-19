@@ -3,17 +3,13 @@ use crate::Gum;
 use leptos::prelude::*;
 
 use super::{
-    components::{header::header, gum_bar::gum_bar},
+    components::{gum_bar::gum_bar, header::header},
     hooks::{use_gum_listener, use_load_pack, use_overlay},
     state::create_run_state,
 };
 
 #[component]
-pub fn RunView(
-    gums: ReadSignal<Vec<Gum>>,
-    on_back: Callback<()>,
-) -> impl IntoView {
-
+pub fn RunView(gums: ReadSignal<Vec<Gum>>, on_back: Callback<()>) -> impl IntoView {
     let state = create_run_state();
 
     use_load_pack(&state);

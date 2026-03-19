@@ -1,15 +1,12 @@
-use leptos::prelude::*;
 use crate::Gum;
+use leptos::prelude::*;
 
 pub fn gum_bar(
     pack: RwSignal<Vec<String>>,
     gums: ReadSignal<Vec<Gum>>,
     used_slots: RwSignal<Vec<usize>>,
 ) -> impl IntoView {
-
-    let get_gum = move |id: &String| {
-        gums.get().into_iter().find(|g| &g.id == id)
-    };
+    let get_gum = move |id: &String| gums.get().into_iter().find(|g| &g.id == id);
 
     view! {
         <div style="display:flex; gap:10px;">

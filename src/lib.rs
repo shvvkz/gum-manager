@@ -1,5 +1,5 @@
-pub mod ui;
 pub mod tauri;
+pub mod ui;
 use serde::{Deserialize, Serialize};
 
 #[derive(Clone, Debug, Serialize, Deserialize)]
