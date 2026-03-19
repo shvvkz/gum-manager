@@ -15,7 +15,7 @@ pub fn set_overlay(window: Window, enabled: bool) {
         let _ = window.set_decorations(true);
 
         let _ = window.set_size(Size::Physical(PhysicalSize {
-            width: 900,
+            width: 950,
             height: 650,
         }));
 

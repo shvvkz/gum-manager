@@ -8,7 +8,7 @@ pub fn PreviewPanel(preview: ReadSignal<Option<Gum>>) -> impl IntoView {
         <div style="
             flex:1;
             background:#1e293b;
-            padding:20px;
+            padding:30px;
             display:flex;
             flex-direction:column;
             justify-content:flex-start;
@@ -38,9 +38,9 @@ pub fn PreviewPanel(preview: ReadSignal<Option<Gum>>) -> impl IntoView {
                                     "
                                 />
 
-                                <h2 style="margin-top:10px;">
+                                <h3 style="margin-top:10px;">
                                     {g.name}
-                                </h2>
+                                </h3>
 
                                 <span style=format!("color:{}; font-weight:bold;", rarity_color)>
                                     {g.rarity}

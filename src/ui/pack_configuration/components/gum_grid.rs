@@ -43,7 +43,7 @@ pub fn GumGrid(
                         ">
                             <div style="
                                 display:grid;
-                                grid-template-columns: repeat(6, minmax(90px, 1fr));
+                                grid-template-columns: repeat(5, minmax(90px, 1fr));
                                 gap:10px;
                             ">
 
