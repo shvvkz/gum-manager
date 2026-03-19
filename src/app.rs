@@ -9,16 +9,13 @@ use gum_manager_ui::tauri::invoke;
 
 #[component]
 pub fn App() -> impl IntoView {
-
     let (is_running, set_is_running) = signal(false);
     let (gums, set_gums) = signal::<Vec<Gum>>(vec![]);
 
     {
         spawn_local(async move {
             if let Ok(val) = invoke("get_gums").await {
-                let parsed =
-                    serde_wasm_bindgen::from_value::<Vec<Gum>>(val)
-                        .unwrap_or_default();
+                let parsed = serde_wasm_bindgen::from_value::<Vec<Gum>>(val).unwrap_or_default();
                 set_gums.set(parsed);
             }
         });

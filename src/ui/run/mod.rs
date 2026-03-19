@@ -1,4 +1,4 @@
-pub mod view;
+pub mod components;
 pub mod hooks;
 pub mod state;
-pub mod components;
+pub mod view;

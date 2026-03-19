@@ -1,12 +1,8 @@
+use crate::tauri::startDrag;
 use leptos::prelude::*;
 use leptos::reactive::spawn_local;
-use crate::tauri::startDrag;
 
-pub fn header(
-    cycle_count: RwSignal<i32>,
-    on_back: Callback<()>,
-) -> impl IntoView {
-
+pub fn header(cycle_count: RwSignal<i32>, on_back: Callback<()>) -> impl IntoView {
     view! {
         <div style="
             display:flex;
@@ -14,7 +10,6 @@ pub fn header(
             justify-content:space-between;
         ">
 
-            // 🔥 DRAG ZONE
             <div
                 style="
                     flex:1;
@@ -39,7 +34,6 @@ pub fn header(
                 </div>
             </div>
 
-            // 🔥 BOUTON QUIT
             <div
                 style="
                     cursor:pointer;

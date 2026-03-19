@@ -1,11 +1,11 @@
 use crate::tauri::get_pack;
 use crate::Gum;
+use gloo_timers::future::TimeoutFuture;
 use leptos::prelude::*;
 use wasm_bindgen_futures::spawn_local;
-use gloo_timers::future::TimeoutFuture;
 
-use super::state::PackConfigurationState;
 use super::components::toast::Toast;
+use super::state::PackConfigurationState;
 
 pub fn use_load_pack(state: &PackConfigurationState, gums: ReadSignal<Vec<Gum>>) {
     let set_pack = state.pack;

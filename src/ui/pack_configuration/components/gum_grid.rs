@@ -1,5 +1,5 @@
-use crate::Gum;
 use crate::tauri::set_gum;
+use crate::Gum;
 
 use leptos::prelude::*;
 use wasm_bindgen_futures::spawn_local;
@@ -14,23 +14,19 @@ pub fn GumGrid(
     set_preview: WriteSignal<Option<Gum>>,
     add_toast: impl Fn(String) + 'static + Clone + Send + Sync,
 ) -> impl IntoView {
-
     let filtered_gums = move || {
         let mode = filter_mode.get();
 
-        gums.get().into_iter().filter(|g| {
-            match mode.as_str() {
-                "classic" => {
-                    g.rarity == "Classic" || g.rarity == "Whimsical"
-                }
+        gums.get()
+            .into_iter()
+            .filter(|g| match mode.as_str() {
+                "classic" => g.rarity == "Classic" || g.rarity == "Whimsical",
                 "mega" => {
-                    g.rarity == "Mega"
-                        || g.rarity == "Rare Mega"
-                        || g.rarity == "Ultra-Rare Mega"
+                    g.rarity == "Mega" || g.rarity == "Rare Mega" || g.rarity == "Ultra-Rare Mega"
                 }
                 _ => true,
-            }
-        }).collect::<Vec<_>>()
+            })
+            .collect::<Vec<_>>()
     };
 
     view! {
@@ -75,7 +71,7 @@ pub fn GumGrid(
                                                 on:click=move |_| {
                                                     let id_clone = id.clone();
                                                     let add_toast_clone = add_toast.clone();
-                
+
                                                     spawn_local(async move {
                                                         match set_gum(index, id_clone.clone()).await {
                                                             Ok(_) => {

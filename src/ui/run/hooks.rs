@@ -1,6 +1,6 @@
 use crate::tauri::{get_pack, invoke, setOverlay};
 use leptos::{prelude::*, reactive::spawn_local};
-use wasm_bindgen::{JsCast, JsValue, prelude::Closure};
+use wasm_bindgen::{prelude::Closure, JsCast, JsValue};
 
 use super::state::RunState;
 
@@ -41,9 +41,7 @@ pub fn use_gum_listener(state: &RunState) {
 
             if let Ok(payload) = payload {
                 if let Ok(index) = serde_wasm_bindgen::from_value::<usize>(payload) {
-
                     set_used_slots.update(|list| {
-
                         if list.contains(&index) {
                             return;
                         }

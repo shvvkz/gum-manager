@@ -1,10 +1,6 @@
 use leptos::prelude::*;
 
-pub fn action_bar(
-    editing_slot: ReadSignal<Option<usize>>,
-    on_run: Callback<()>,
-) -> impl IntoView {
-
+pub fn action_bar(editing_slot: ReadSignal<Option<usize>>, on_run: Callback<()>) -> impl IntoView {
     view! {
         {
             move || {

@@ -1,6 +1,6 @@
-use leptos::prelude::*;
-use crate::Gum;
 use super::components::toast::Toast;
+use crate::Gum;
+use leptos::prelude::*;
 
 pub struct PackConfigurationState {
     pub pack: RwSignal<Vec<String>>,

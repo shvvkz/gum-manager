@@ -6,7 +6,6 @@ pub fn FilterBar(
     filter_mode: ReadSignal<String>,
     set_filter_mode: WriteSignal<String>,
 ) -> impl IntoView {
-
     view! {
         {
             move || {

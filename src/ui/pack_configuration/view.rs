@@ -2,25 +2,16 @@ use crate::Gum;
 use leptos::prelude::*;
 
 use super::{
-    state::create_pack_configuration_state,
-    hooks::{use_load_pack, use_toast},
     components::{
-        filter_bar::FilterBar,
-        gum_grid::GumGrid,
-        pack_bar::PackBar,
-        preview_panel::PreviewPanel,
-        toast::ToastContainer,
-        header::header,
-        action_bar::action_bar,
+        action_bar::action_bar, filter_bar::FilterBar, gum_grid::GumGrid, header::header,
+        pack_bar::PackBar, preview_panel::PreviewPanel, toast::ToastContainer,
     },
+    hooks::{use_load_pack, use_toast},
+    state::create_pack_configuration_state,
 };
 
 #[component]
-pub fn PackConfigurationView(
-    gums: ReadSignal<Vec<Gum>>,
-    on_run: Callback<()>,
-) -> impl IntoView {
-
+pub fn PackConfigurationView(gums: ReadSignal<Vec<Gum>>, on_run: Callback<()>) -> impl IntoView {
     let state = create_pack_configuration_state();
 
     use_load_pack(&state, gums);
