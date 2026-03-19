@@ -13,10 +13,10 @@ jobs:
     runs-on: windows-latest
 
     steps:
-      - name: Checkout (from dev)
+      - name: Checkout (from main)
         uses: actions/checkout@v4
         with:
-          ref: dev
+          ref: main
 
       - name: Setup Rust
         uses: dtolnay/rust-toolchain@stable
